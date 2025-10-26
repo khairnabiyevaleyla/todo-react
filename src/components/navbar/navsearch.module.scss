@@ -1,0 +1,30 @@
+@use '@/styles/nav.scss' as *;
+
+.searchInput {
+  position: relative;
+  width: 722px;
+  height: 48px;
+  i {
+    color: $navSearchIconColor;
+    font-size: $navSearchIconSize;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  input {
+    border: none;
+    background: $navSearchInputBGColor;
+    width: 100%;
+    height: 100%;
+    border-radius: $navSearchInpurBorderRadius;
+    padding-left: 50px;
+    font-size: $navSearchInputSize;
+    color: $navSearchInputColor;
+    outline: none;
+  }
+  input:focus {
+    box-shadow: $navSearchInputFocusBoxShadow;
+    background: $navSearchInputFocusBGColor;
+  }
+}
