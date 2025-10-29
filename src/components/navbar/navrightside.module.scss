@@ -1,9 +1,23 @@
-@use '@/styles/nav.scss' as *;
-
+@use "@/styles/nav.scss" as *;
 
 .rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+
   i {
     font-size: $navProfileIconSize;
     color: $navProfileIconColor;
   }
+}
+
+.languageSelect {
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: $navLanguageSelectColor;
+  cursor: pointer;
+  outline: none;
 }
