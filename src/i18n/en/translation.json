@@ -1,3 +1,9 @@
 {
-  "search-bar": "Search"
+  "search-bar": "Search",
+  "navbar": {
+    "profile-dropdown": {
+      "profile": "Profile",
+      "logout": "Sign Out"
+    }
+  }
 }
