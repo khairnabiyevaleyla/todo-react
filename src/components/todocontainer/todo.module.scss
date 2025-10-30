@@ -1,0 +1,6 @@
+@use '@/styles/todo.scss' as *;
+
+.toDoContainer{
+    display: flex;
+    gap: 10px;
+}
