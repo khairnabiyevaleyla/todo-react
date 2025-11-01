@@ -12,7 +12,7 @@ const SearchBar = () => {
     <div className={style.searchBar}>
       <div className={style.searchInput}>
         <i className="ri-search-line"></i>
-        <input type="text" placeholder={t("search_bar")} />
+        <input type="text" placeholder={t("search-bar")} />
       </div>
     </div>
   );
