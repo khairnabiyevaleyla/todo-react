@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./navbar.module.scss"
+import style from "./navrightside.module.scss"
 
 const RightSide = () => {
   return (

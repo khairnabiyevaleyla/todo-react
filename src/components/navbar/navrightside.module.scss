@@ -1,0 +1,9 @@
+@use '@/styles/nav.scss' as *;
+
+
+.rightSide {
+  i {
+    font-size: $navProfileIconSize;
+    color: $navProfileIconColor;
+  }
+}
