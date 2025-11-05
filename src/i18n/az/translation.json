@@ -1,3 +1,9 @@
 {
-  "search-bar": "Axtar"
+  "search-bar": "Axtar",
+  "navbar": {
+    "profile-dropdown": {
+      "profile": "Profil",
+      "logout": "Çıxış"
+    }
+  }
 }
