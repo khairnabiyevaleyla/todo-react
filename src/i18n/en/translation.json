@@ -5,5 +5,10 @@
       "profile": "Profile",
       "logout": "Sign Out"
     }
-  }
+  },
+  "sidebar": {
+    "lists": "Lists",
+    "archive": "Archive",
+    "deleted": "Deleted"
+}
 }

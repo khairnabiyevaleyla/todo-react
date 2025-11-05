@@ -5,5 +5,10 @@
       "profile": "Profil",
       "logout": "Çıxış"
     }
+  },
+  "sidebar": {
+    "lists": "Siyahı",
+    "archive": "Arxiv",
+    "deleted": "Silinmiş"
   }
 }
