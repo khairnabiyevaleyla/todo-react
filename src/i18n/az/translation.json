@@ -1,7 +1,7 @@
 {
-  "search_bar": "Axtar",
+  "search-bar": "Axtar",
   "navbar": {
-    "profile_dropdown": {
+    "profile-dropdown": {
       "profile": "Profil",
       "logout": "Çıxış"
     }
@@ -10,5 +10,5 @@
     "lists": "Siyahı",
     "archive": "Arxiv",
     "deleted": "Silinmiş"
-}
+  }
 }

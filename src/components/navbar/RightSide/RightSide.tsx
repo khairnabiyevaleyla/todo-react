@@ -36,9 +36,9 @@ const RightSide = () => {
           {dropdownOpen && (
             <div className={style.profileDropdown}>
               <ul>
-                <li>{t("navbar.profile_dropdown.profile")}</li>
+                <li>{t("navbar.profile-dropdown.profile")}</li>
                 <li>
-                  <i className="ri-logout-circle-line"></i> {t("navbar.profile_dropdown.logout")}
+                  <i className="ri-logout-circle-line"></i> {t("navbar.profile-dropdown.logout")}
                 </li>
               </ul>
             </div>

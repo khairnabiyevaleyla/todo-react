@@ -1,7 +1,7 @@
 {
-  "search_bar": "Search",
+  "search-bar": "Search",
   "navbar": {
-    "profile_dropdown": {
+    "profile-dropdown": {
       "profile": "Profile",
       "logout": "Sign Out"
     }
