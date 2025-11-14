@@ -1,10 +1,12 @@
 @use "@/styles/sidebar.scss" as *;
+@use "@/styles/general.scss" as *;
 
 .sideBarContent {
   background: white;
   height: 100vh;
   transition: all 0.3s ease;
   padding-top: 10px;
+  font-family: $generalFontFamily;
 }
 
 /* открытый сайдбар */
@@ -48,7 +50,7 @@
 }
 
 .label {
-  font-size: $sideBarLabelFontSize;
+  font-size: $generalFontSize;
   font-weight: 500;
   color: $sideBarLabelColor;
   white-space: nowrap;
