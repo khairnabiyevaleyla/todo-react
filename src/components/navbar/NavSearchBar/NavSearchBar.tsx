@@ -2,14 +2,14 @@ import style from "./navsearch.module.scss";
 import { useTranslation } from "react-i18next";
 
 
-const SearchBar = () => {
+const NavSearchBar = () => {
   const { t } = useTranslation();
 
 
 
 
   return (
-    <div className={style.searchBar}>
+    <div className={style.NavSearchBar}>
       <div className={style.searchInput}>
         <i className="ri-search-line"></i>
         <input type="text" placeholder={t("search-bar")} />
@@ -18,4 +18,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default NavSearchBar;

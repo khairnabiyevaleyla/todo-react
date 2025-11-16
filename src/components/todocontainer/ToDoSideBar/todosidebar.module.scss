@@ -1,7 +1,7 @@
-@use "@/styles/sidebar.scss" as *;
+@use "@/styles/todosidebar.scss" as *;
 @use "@/styles/general.scss" as *;
 
-.sideBarContent {
+.ToDoSideBarContent {
   background: white;
   height: 100vh;
   transition: all 0.3s ease;
@@ -21,7 +21,7 @@
   box-shadow: none;
 }
 
-.sidebarItem {
+.ToDoSideBarItem {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -31,27 +31,27 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: $sidebarItemBGHoverColor;
+    background-color: $ToDoSideBarItemBGHoverColor;
   }
 }
 
 .icon {
-  font-size: $sideBarIconSize;
-  color: $sideBarIconColor;
+  font-size: $ToDoSideBarIconSize;
+  color: $ToDoSideBarIconColor;
   cursor: pointer;
   border-radius: 50%;
   padding: 10px 12px;
   background: none;
-  transition: $sideBarIconTransition;
+  transition: $ToDoSideBarIconTransition;
 
   &:hover {
-    background-color: $sideBarIconBGHoverColor;
+    background-color: $ToDoSideBarIconBGHoverColor;
   }
 }
 
 .label {
   font-size: $generalFontSize;
   font-weight: 500;
-  color: $sideBarLabelColor;
+  color: $ToDoSideBarLabelColor;
   white-space: nowrap;
 }

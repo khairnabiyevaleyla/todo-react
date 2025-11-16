@@ -6,7 +6,7 @@
       "logout": "Çıxış"
     }
   },
-  "sidebar": {
+  "ToDoSideBar": {
     "lists": "Siyahı",
     "archive": "Arxiv",
     "deleted": "Silinmiş"

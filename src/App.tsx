@@ -1,5 +1,5 @@
-import Navbar from "./components/navbar/Navbar"
-import ToDoContainer from "./components/todocontainer/ToDoContainer"
+import Navbar from "./components/navBar/Navbar"
+import ToDoContainer from "./components/toDoContainer/ToDoContainer"
 
 
 function App() {

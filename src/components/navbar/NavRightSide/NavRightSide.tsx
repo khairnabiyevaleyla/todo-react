@@ -1,9 +1,9 @@
 import React from "react";
-import style from "./navrightside.module.scss";
+import style from "./NavRightSide.module.scss";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
-const RightSide = () => {
+const NavRightSide = () => {
   const { i18n } = useTranslation();
   const [dropdownOpen, setDropdownOpen] = React.useState(false);
   const { t } = useTranslation();
@@ -14,7 +14,7 @@ const RightSide = () => {
 
   return (
     <>
-      <div className={style.rightSide}>
+      <div className={style.NavRightSide}>
         <div>
           {" "}
           <select
@@ -49,4 +49,4 @@ const RightSide = () => {
   );
 };
 
-export default RightSide;
+export default NavRightSide;
