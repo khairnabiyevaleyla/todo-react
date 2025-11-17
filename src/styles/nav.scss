@@ -1,5 +1,4 @@
 $navBorderBottomColor: 1px solid #e0e0e0;
-$navFontFamily: 'Arial, sans-serif';
 $navMenuIconSize: 22px;
 $navMenuIconTransitionTime: 0.3s;
 $navMenuIconTransition: all $navMenuIconTransitionTime ease;
@@ -18,9 +17,8 @@ $navProfileIconSize: 29px;
 $navProfileIconColor: #5f6368;
 $navLanguageSelectColor: $navSearchInputColor;
 $navProfileDropdownBGColor: $navMenuIconBGHoverColor;
-$navProfileDropdownFontSize: 15px;
+$navProfileDropdownIconSize: 15px;
 $navProfileDropdownBorderRadius: 5px;
-$navProfileDropdownColor: #2f95ba;  
-$navProfileDropdownHoverColor: #257a99;  
+$navProfileDropdownColor: #6f6f70;  
 $navProfileDropdownTransitionTime: 0.3s;
 $navProfileDropdownTransition: all $navProfileDropdownTransitionTime ease;

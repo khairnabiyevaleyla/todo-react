@@ -1,9 +1,9 @@
-import style from "./navleftside.module.scss";
+import style from "./NavLeftSide.module.scss";
 
 
-const LeftSide = () => {
+const NavLeftSide = () => {
   return (
-    <div className={style.leftSide}>
+    <div className={style.NavLeftSide}>
       <div className={style.menuIcon}>
         <i className="ri-menu-line"></i>
       </div>
@@ -17,4 +17,4 @@ const LeftSide = () => {
   );
 };
 
-export default LeftSide;
+export default NavLeftSide;

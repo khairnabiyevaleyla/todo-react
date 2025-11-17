@@ -1,9 +1,11 @@
 @use '@/styles/nav.scss' as *;
+@use "@/styles/general.scss" as *;
 
 .searchInput {
   position: relative;
   width: 722px;
   height: 48px;
+  
   i {
     color: $navSearchIconColor;
     font-size: $navSearchIconSize;
@@ -19,9 +21,10 @@
     height: 100%;
     border-radius: $navSearchInpurBorderRadius;
     padding-left: 50px;
-    font-size: $navSearchInputSize;
+    font-size: $generalFontSize;
     color: $navSearchInputColor;
     outline: none;
+   font-family: $generalFontFamily;
   }
   input:focus {
     box-shadow: $navSearchInputFocusBoxShadow;

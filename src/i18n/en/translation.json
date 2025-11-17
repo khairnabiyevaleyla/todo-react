@@ -6,7 +6,7 @@
       "logout": "Sign Out"
     }
   },
-  "sidebar": {
+  "ToDoSideBar": {
     "lists": "Lists",
     "archive": "Archive",
     "deleted": "Deleted"

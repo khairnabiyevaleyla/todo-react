@@ -6,7 +6,7 @@
       "logout": "Выйти"
     }
   },
-  "sidebar": {
+  "ToDoSideBar": {
     "lists": "Список",
     "archive": "Архив",
     "deleted": "Удаленные"

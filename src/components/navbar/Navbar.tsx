@@ -1,7 +1,7 @@
 import React from "react";
-import LeftSide from "./LeftSide/LeftSide.tsx";
-import SearchBar from "./SearchBar/SearchBar.tsx";
-import RightSide from "./RightSide/RightSide.tsx";
+import NavLeftSide from "./NavLeftSide/NavLeftSide.tsx";
+import NavSearchBar from "./NavSearchBar/NavSearchBar.tsx";
+import NavRightSide from "./NavRightSide/NavRightSide.tsx";
 import style from "./navbar.module.scss"
 
 const Navbar = () => {
@@ -9,9 +9,9 @@ const Navbar = () => {
     <>
       {" "}
       <div className={style.navContainer}>
-        <LeftSide />
-        <SearchBar />
-        <RightSide />
+        <NavLeftSide />
+        <NavSearchBar />
+        <NavRightSide />
       </div>
     </>
   );
